@@ -26,10 +26,7 @@ Here are some of the tools and technologies I use to build solutions:
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-## 📊 GitHub Stats
 
-[![Anushree's GitHub stats](https://github-readme-stats.vercel.app/api?username=AnushreeU13&show_icons=true&theme=radium)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnushreeU13&layout=compact&theme=radium)](https://github-com/anuraghazra/github-readme-stats)
 
 ---
 ⭐️ From [AnushreeU13](https://github.com/AnushreeU13)
