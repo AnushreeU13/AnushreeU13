@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm a passionate developer and researcher working 
 ## 🚀 Live Projects & Under Development
 
 - 🧬 **[ScholarBOT](https://github.com/AnushreeU13/ScholarBOT)** - *NLP / RAG*: A comprehensive **RAG (Retrieval-Augmented Generation) pipeline** designed for clinical queries. It utilizes logic routers, "diagnosis gates," and abstention thresholds to deliver high-accuracy, reliable healthcare NLP responses.
-- 🛡️ **PACT Web Application** - *Web Development / NLP Redaction*: A privacy-focused modern web application built with a responsive glassmorphic frontend and a **FastAPI** backend. It leverages **spaCy and RegEx** to execute real-time redaction of sensitive financial information before processing.
+- 🛡️ **[PACT Web Application](https://github.com/JMars8/IS597-Project-PACT)** - *Web Development / NLP Redaction*: A privacy-focused modern web application built with a responsive glassmorphic frontend and a **FastAPI** backend. It leverages **spaCy and RegEx** to execute real-time redaction of sensitive financial information before processing.
 
 ## 🛠️ Portfolio & Highlighted Projects
 
