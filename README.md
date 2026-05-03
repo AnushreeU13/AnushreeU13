@@ -14,7 +14,7 @@ A specialized physician's tool for querying domain-specific knowledge bases with
 - **Interactive Retrieval**: Users can upload custom documents for real-time RAG-based interrogation.
 - **Tech Stack**: GPT-4o, Llama (via Groq), RAGAS for evaluation, and custom Guardrail logic.
 
-### 🛡️ [PACT (Privacy-Aware Communication Tool)](https://github.com/JMars8/IS597-Project-PACT)
+### 🛡️ [PACT (Privacy-Aware Communication Tool)](https://github.com/AnushreeU13/PACT)
 **Privacy Engineering | spacy | scispacy | Llama-3.1-8B**
 A critical middleware layer between users and LLMs designed to prevent digital footprint leakage.
 - **Contextual Redaction**: Dynamically identifies and masks sensitive data (Names, Locations, Financials, Health info) before it reaches the model.
