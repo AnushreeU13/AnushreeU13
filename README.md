@@ -11,7 +11,7 @@ I build production-ready AI systems — RAG pipelines, privacy-preserving LLM mi
 
 ## 🚀 Featured Projects
 
-### 🧬 [ScholarBOT](https://github.com/AnushreeU13/ScholarBOT)
+### 🧬 [ScholarBOT](https://github.com/AnushreeU13/ScholarBOT_Production)
 **RAG · Hybrid Retrieval · LLMs · Responsible AI · NLP · Evaluation · Streamlit**
 
 A production-grade clinical RAG system built around a **zero-hallucination, fail-closed architecture** for medical query answering.
