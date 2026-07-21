@@ -23,6 +23,22 @@ A production-grade clinical RAG system built around a **zero-hallucination, fail
 - **Stack**: GPT-4o · LangChain · FAISS · BM25 · Sentence Transformers · RAGAS · Streamlit · Python 3.9+
 
 ---
+### 🩺 [Clinical Notes Encoder](https://github.com/AnushreeU13/Clinical_Notes_Encoder)
+**FHIR · LLM Entity Extraction · ICD-10/RxNorm Mapping · Databricks · Delta Lake · MLflow**
+
+An end-to-end clinical NLP pipeline that transforms synthetic FHIR patient records into structured, coded clinical data — extracting entities via LLM, mapping them to standard medical terminologies, and landing everything in a Databricks Delta Lake medallion architecture.
+
+- **FHIR Ingestion & Parsing**: Parses Synthea-generated FHIR R4 patient bundles with raw Python (no heavyweight FHIR library), extracting demographics, diagnoses, medications, procedures, and base64-decoded clinical notes from nested resource references.
+- **LLM Entity Extraction**: Uses Groq-hosted LLaMA models with JSON-schema-validated structured output and a simplified-prompt retry fallback to pull diagnoses, medications, procedures, and symptoms out of unstructured clinical text.
+- **Custom Terminology Mapping Layer**: Maps extracted diagnoses to ICD-10 via a custom token-overlap search built over 95K+ codes (filling a gap in the target library's API), with LLM-based disambiguation for ambiguous matches; medications normalized to RxNorm through LLM inference.
+- **Fault-Tolerant API Orchestration**: Distinguishes transient per-minute rate limits (backoff-and-retry) from genuine per-day quota exhaustion (graceful stop) when driving third-party LLM calls at scale.
+- **Delta Lake + MLflow on Databricks**: Loads pipeline outputs into a medallion-style Unity Catalog architecture (raw/processed/evaluation schemas), with automated MLflow run tracking and SQL dashboards for pipeline health monitoring.
+- **Stack**: LLaMA (Groq API) · PySpark · Databricks · Delta Lake · Unity Catalog · MLflow · icd10-cm · Python 3.13
+
+🚧 *Currently scaling extraction from an 800-note validation run to the full ~7K-note corpus.*
+
+---
+
 
 ### 🛡️ [PACT — Privacy-Aware Communication Tool](https://github.com/AnushreeU13/PACT)
 **Privacy Engineering · NER · FastAPI · LLMs · Full-Stack · Deployed**
